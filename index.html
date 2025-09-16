@@ -70,6 +70,16 @@
       height: 180px;
       object-fit: cover;
     }
+    form input, form textarea {
+  background: #1a1a1a;
+  border: 1px solid #0ff;
+  color: #fff;
+}
+form input:focus, form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px #0ff;
+  border-color: #0ff;
+}
   </style>
 </head>
 <body>
@@ -143,6 +153,24 @@
       </div>
     </div>
   </section>
+  <section id="contact" class="container py-5">
+  <h2 class="text-center mb-4">Hubungi Saya</h2>
+  <form class="mx-auto" style="max-width:600px;">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nama</label>
+      <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Pesan</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-custom">Kirim</button>
+  </form>
+</section>
 
   <footer class="text-center py-4">
     <p>&copy; 2025 Ignasius Mario Yosi Pratama | Dibuat dengan ❤️</p>
@@ -150,3 +178,4 @@
 </body>
 
 </html>
+
