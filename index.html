@@ -151,26 +151,61 @@ form input:focus, form textarea:focus {
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="./assets/Screenshot 2025-09-16 082533.png" alt="Project 2">
+          <div class="p-3">
+            <h5>Server Minecraft</h5>
+            <p>Sebuah Website yang berisi hal hal Mengenai server di Yohnzz.aternos.me</p>
+            <a href="https://github.com/Yohnzz/Puskesmas/blob/main/index.html" target="_blank" class="btn btn-custom btn-sm">View Code</a>
+            <a href="https://yohnzz.github.io/Puskesmas/Puskesmas.html" target="_blank" class="btn btn-custom btn-sm">Live Demo</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section id="contact" class="container py-5">
   <h2 class="text-center mb-4">Hubungi Saya</h2>
-  <form class="mx-auto" style="max-width:600px;">
+  <form id="contactForm" class="mx-auto" style="max-width: 500px;">
     <div class="mb-3">
       <label for="name" class="form-label">Nama</label>
-      <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+      <input type="text" class="form-control" id="name" name="name" required>
     </div>
     <div class="mb-3">
       <label for="email" class="form-label">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+      <input type="email" class="form-control" id="email" name="email" required>
     </div>
     <div class="mb-3">
       <label for="message" class="form-label">Pesan</label>
-      <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
     </div>
-    <button type="submit" class="btn btn-custom">Kirim</button>
+    <button type="submit" class="btn btn-custom w-100">Kirim Pesan</button>
   </form>
 </section>
+
+  <script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbwcvZhDy6JNmZCsRu-JpF_YoGz9H6QM3dpbbvt3-EuuiplocSKENgvIIAyRDcoo5ILVfA/exec"; // URL Web App dari Apps Script
+
+  document.getElementById("contactForm").addEventListener("submit", e => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    fetch(scriptURL, { method: "POST", body: formData })
+      .then(res => res.json())
+      .then(data => {
+        if (data.result === "success") {
+          alert("✅ Pesan berhasil dikirim!");
+          e.target.reset();
+        } else {
+          alert("❌ Gagal mengirim pesan: " + data.error);
+        }
+      })
+      .catch(err => {
+        console.error("Error:", err);
+        alert("❌ Terjadi error. Coba lagi nanti.");
+      });
+  });
+</script>
 
   <footer class="text-center py-4">
     <p>&copy; 2025 Ignasius Mario Yosi Pratama | Dibuat dengan ❤️</p>
@@ -178,4 +213,5 @@ form input:focus, form textarea:focus {
 </body>
 
 </html>
+
 
