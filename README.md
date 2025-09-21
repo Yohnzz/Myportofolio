@@ -1,51 +1,62 @@
-<h1 align="center">🌟 My Portfolio Project 🌟</h1>
+<h1 align="center">
+  Hi there 👋 I'm Yohnzz!
+</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C0FF&center=true&vCenter=true&width=600&lines=Hi+I'm+Yohnzz;Welcome+to+My+Portfolio;Web+Developer+%26+UI%2FUX+Enthusiast;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00C0FF&center=true&vCenter=true&width=500&lines=Front+End+Developer;Always+Learning+New+Things;Coffee+%2B+Code+%3D+Life" alt="Typing SVG" />
 </p>
 
 ---
 
-## 📖 About This Project
-Portfolio ini dibuat untuk menampilkan perjalanan saya sebagai developer, project-project yang pernah saya buat, serta skill yang saya kuasai.  
-Tujuan dari project ini adalah untuk **membangun personal branding** sekaligus menjadi dokumentasi perkembangan saya di dunia programming. 🚀  
-
----
-
-## 🛠️ Tech Stack
+## 📊 GitHub Stats
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,tailwind,python,php,laravel,cpp,git,github" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yohnzz&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yohnzz&theme=tokyonight" alt="GitHub Streak" height="180" />
 </p>
 
 ---
 
-## 📸 Preview
-*(Tambahkan screenshot/gif dari portfolio kamu di sini)*  
-Contoh:  
-
-![Portfolio Screenshot](assets/preview.png)
+## 🎯 Languages & Tools
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,github" />
+</p>
 
 ---
 
-## 📂 Projects Highlight
-Beberapa project yang ditampilkan di portfolio ini:
-- 🚀 **Quotes App** – Generator & manajemen quotes (Python + Flask)  
-- 📊 **VELA** – Toolkit visualisasi data (JavaScript)  
-- ⚙️ **Triono_SIM** – Simulation tool untuk sistem kompleks (C++ + Qt)  
-- 🏥 **Puskesmas** – Aplikasi manajemen kesehatan (PHP + Laravel)  
-- ✅ **To-Do-List** – Task manager minimalis (ReactJS)  
+## 📈 GitHub Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yohnzz&layout=compact&theme=tokyonight" alt="Top Langs" />
+</p>
+
+---
+
+## 🏆 Top Projects
+| Project         | Description                                      | Tech Used      |
+|-----------------|--------------------------------------------------|---------------|
+| [Quotes](https://github.com/Yohnzz/Quotes)           | Simple quote generator and manager.             | Tailwind CSS   |
+| [VELA](https://github.com/Yohnzz/VELA)               | Innovative data visualization toolkit.          | JavaScript     |
+| [Puskesmas](https://github.com/Yohnzz/Puskesmas)     | Health center management platform.              | Javascript     |
+| [To-Do-List](https://github.com/Yohnzz/To-Do-List)   | Minimalist and efficient task manager.          | JS DOM         |
 
 ---
 
 ## 🔗 Connect with Me
 <p align="center">
-  <a href="https://linkedin.com/in/Yohnzz"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" /></a>
-  <a href="https://instagram.com/yourusername"><img src="https://img.shields.io/badge/Instagram-red?logo=instagram&logoColor=white" /></a>
-  <a href="https://youtube.com/@yourchannel"><img src="https://img.shields.io/badge/YouTube-darkred?logo=youtube&logoColor=white" /></a>
-  <a href="mailto:yohnzz@example.com"><img src="https://img.shields.io/badge/Email-green?logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/ignasius-mario-717a04384"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/ignasiusmario05"><img src="https://img.shields.io/badge/Instagram-red?logo=instagram&logoColor=white" /></a>
+  <a href="https://www.youtube.com/@Yohnkce"><img src="https://img.shields.io/badge/YouTube-darkred?logo=youtube&logoColor=white" /></a>
+<!--   <a href="mailto:yohnzz@example.com"><img src="https://img.shields.io/badge/Email-green?logo=gmail&logoColor=white" /></a> -->
 </p>
 
 ---
 
-## ✨ Fun Fact
-> "Setiap baris kode adalah bagian dari perjalanan saya menuju developer yang lebih baik." 💡
+## ✨ Fun Facts
+- ☕ Coffee fuels my code  
+- 💪 Selalu siap untuk tantangan baru  
+- 🤝 Suka berkolaborasi & belajar hal baru  
+
+---
+
+<p align="center">
+  <i>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</i>
+</p>
